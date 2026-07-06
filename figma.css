@@ -1,18 +1,16 @@
 *{
     box-sizing: border-box;
     margin: 0px;
-    color: ;
-
 }
 
-ul{
+header>div>ul{
     display: flex;
     justify-content: center;
     margin-left: 700px;
  
 }
 
-li
+header>div>ul>li
 {
     margin-top: 25px;
     list-style: none;
@@ -20,7 +18,8 @@ li
     text-align: center;
 }
 
-a{
+
+header>div>ul>li>a{
     text-decoration: none;
     color: #1D79F6;
     font-family: "Playfair Display", serif;
@@ -53,7 +52,8 @@ header
         height: 25px;
         position: absolute;
         left:130px;
-        top: 16px;
+        top
+        : 16px;
         color: #1D79F6;
         font-family: "playfair display", serif;
         font-size: 30px;
@@ -61,6 +61,7 @@ header
        
 
     }
+
 
     #fundo{
         background-image: url(banne.png);
@@ -92,5 +93,81 @@ header
         margin-top: 700px;
         display: flex;
         justify-content: center;
-
+        margin-bottom: 100px;
     }
+
+    div>img{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    #carrinho{
+        width: 35px;
+        height: 35px ;
+        margin-left: 500px;
+        position: absolute;
+        top:20px;
+    }
+
+    footer{
+       
+        display: flex;
+        background-color: #020c2b;
+        height: 600px;
+    }
+
+        #roda1{
+        margin-left: 470px;
+        margin-top: 50px;
+        list-style: none;
+        font-weight: 300;
+        margin-top: 100px;
+        width: 10%;
+         justify-items: center;
+    }
+  
+    footer>ul>li>a{
+       text-decoration: none;
+        color: rgb(255, 255, 255);
+    
+ }
+  footer>ul>li{
+    margin-top: 50px;
+   
+  }
+
+    #inst{
+    font-weight:1000;
+    color: white;
+ }
+
+
+ #roda2{
+      
+        margin-top: 90px;
+        list-style: none;
+        font-weight: 300;
+        margin-left:240px;
+        justify-items: center;
+       
+  }
+
+  #marcas{
+     font-weight:1000;
+    color: white;
+  }
+
+
+  #roda3{
+         margin-top: 90px;
+        list-style: none;
+        font-weight: 300;
+        margin-left:290px;
+        justify-items: center;
+  }
+
+  #cat{
+      font-weight:1000;
+    color: white;
+  }
